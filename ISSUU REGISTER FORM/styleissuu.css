@@ -1,0 +1,19 @@
+.header {
+    border-bottom: solid rgba(0, 0, 0, 0.132) 2px;
+}
+
+.connect-google {
+    background-color: #4285F4;
+    color: white;
+    display: flex;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.connect-facebook {
+    background-color: #3B5998;
+    color: white;
+    display: flex;
+    width: 200px;
+    border-radius: 2px;
+}

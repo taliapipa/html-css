@@ -1,0 +1,204 @@
+
+/*SECTION 2*/
+
+.mensajeria-comprometida {
+    background-color: $fourth-color;
+    width: 100%;
+    height: auto;
+}
+
+.logos {
+    background-color: $fourth-color;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 48px;
+
+    .center-logos {
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .logo {
+            display: flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 60px;
+            }
+        }
+
+    }
+}
+
+.banner-telf {
+        background-color: $fourth-color;
+
+        .banner-telf1 {
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+            .banner-telf2 {
+                width: 100%;
+                margin-top: 40px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .banner-telf3 {
+                width: 100%;
+                margin-top: 40px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                    
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+        .letra-mensajeria {
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .titulo-mensajeria {
+                font-size: 30px;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+
+            .boton-mas-info {
+                margin-top: 10px;
+                color: $click-color;
+            }
+        }
+} 
+
+/*BANNER 3*/
+
+.banner-3 {
+    display: flex;
+    flex-direction: column;
+
+    .letra-banner-3 {
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+
+        .banner3-h3 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .banner3-p {
+            margin: 10px;
+            font-size: 18px;
+        }
+    }
+
+    .botones {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+
+        .boton1 {
+            width: 100%;
+            margin: 10px;
+            padding: 20px 40px 20px 40px;
+            background-color: $primary-color;
+            color: white;
+            border-radius: 4px;
+        }
+
+        .boton2 {
+            width: 100%;
+            margin: 10px;
+            padding: 20px 40px 20px 40px;
+            border: 1px solid  $primary-color;
+            color: $primary-color;
+            background-color: white;
+            border-radius: 4px;
+        }
+    }
+
+    .porcentajes {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .porcentajes1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+
+            .col {
+                margin: 20px 20px 0 20px;
+
+                .porc {
+                    font-size: 55px;
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+
+                .p {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .letra {
+            text-align: center;
+            margin: 5px 20px 20px 20px;
+            font-size: 12px;
+            color: grey;
+        }
+    }
+}
+
+
+/*MEDIAQUERYS*/
+
+/*1200*/
+
+@media (min-width: 1200px) {
+
+}
+
+/*992*/
+
+@media (min-width: 992px) {	
+
+}
+/*768*/
+
+@media (min-width: 768px) {
+
+}
